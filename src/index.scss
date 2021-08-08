@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('statics/css/fonts/roboto/Roboto-Regular.ttf');
+  src: url('statics/css/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('statics/css/fonts/roboto/Roboto-Italic.ttf');
+  src: url('statics/css/fonts/roboto/Roboto-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('statics/css/fonts/roboto/Roboto-Bold.ttf');
+  src: url('statics/css/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('statics/css/fonts/roboto/Roboto-BoldItalic.ttf');
+  src: url('statics/css/fonts/roboto/Roboto-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('statics/css/fonts/roboto/Roboto-Thin.ttf');
+  src: url('statics/css/fonts/roboto/Roboto-Thin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('statics/css/fonts/roboto/Roboto-ThinItalic.ttf');
+  src: url('statics/css/fonts/roboto/Roboto-ThinItalic.ttf') format('truetype');  
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('statics/css/fonts/roboto/Roboto-Light.ttf');
+  src: url('statics/css/fonts/roboto/Roboto-Light.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('statics/css/fonts/roboto/Roboto-LightItalic.ttf');
+  src:url('statics/css/fonts/roboto/Roboto-LightItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('statics/css/fonts/roboto/Roboto-Medium.ttf');
+  src: url('statics/css/fonts/roboto/Roboto-Medium.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('statics/css/fonts/roboto/Roboto-MediumItalic.ttf');
+  src: url('statics/css/fonts/roboto/Roboto-MediumItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@import "statics/css/breakpoint.scss";
+
+@import "tiny-slider/src/tiny-slider.scss";
+@import "highlight.js/scss/github.scss";
+@import "tippy.js/dist/tippy.css";
+@import "tippy.js/themes/light.css";
+@import "tippy.js/dist/svg-arrow.css";
+@import "tippy.js/animations/shift-away.css";
+@import "tail.select/css/default/tail.select-light.css";
+@import "toastify-js/src/toastify.css";
+//@import "~dropzone/dist/dropzone.scss";
+//@import "~zoom-vanilla.js/dist/zoom.scss";
+@import "~tabulator-tables/dist/css/tabulator.css";
+
+@import "statics/css/slider";
+@import "statics/css/typing-dots.scss";
+@import "statics/css/zoom-in.scss";
+@import "statics/css/intro.scss";
+@import "statics/css/modal-product";
+@import "statics/css/top-bar.scss";
+@import "statics/css/app.scss";
+@import "statics/css/login.scss";
+@import "statics/css/mini-chat-box.scss";
+@import "statics/css/mini-chat-list.scss";
+@import "statics/css/mini-chat.scss";
+@import "statics/css/table.scss";
+@import "statics/css/table-report.scss";
+@import "statics/css/report-timeline.scss";
+@import "statics/css/report-chart.scss";
+@import "statics/css/search.scss";
+@import "statics/css/input.scss";
+@import "statics/css/button.scss";
+@import "statics/css/notification.scss";
+@import "statics/css/image-fit.scss";
+@import "statics/css/box.scss";
+@import "statics/css/report-box.scss";
+@import "statics/css/global.scss";
+@import "statics/css/content.scss";
+@import "statics/css/top-nav.scss";
+@import "statics/css/side-nav.scss";
+@import "statics/css/breadcrumb.scss";
+@import "statics/css/tailwind.scss";
+@import "statics/css/top-bar-boxed.scss";
+@import "statics/css/mobile-menu.scss";
+@import "statics/css/pagination.scss";
+@import "statics/css/dropdown.scss";
+@import "statics/css/modal.scss";
+@import "statics/css/tab.scss";
+@import "statics/css/checkbox.scss";
+@import "statics/css/file.scss";
+@import "statics/css/inbox-filter.scss";
+@import "statics/css/inbox.scss";
+@import "statics/css/scrollbar.scss";
+@import "statics/css/chat.scss";
+@import "statics/css/boxed-tabs.scss";
+@import "statics/css/chat-dropdown.scss";
+@import "statics/css/wizard.scss";
+@import "statics/css/blog.scss";
+@import "statics/css/news.scss";
+@import "statics/css/pricing-tabs.scss";
+@import "statics/css/accordion.scss";
+@import "statics/css/error-page.scss";
+@import "statics/css/search-result.scss";
+@import "statics/css/mini-report-chart.scss";
+@import "statics/css/notification-content.scss";
+@import "statics/css/report-maps.scss";
+@import "statics/css/pos-dropdown.scss";
+@import "statics/css/pos.scss";
+@import "statics/css/post.scss";
+@import "statics/css/feather-icon.scss";
+@import "statics/css/litepicker.scss";
+@import "statics/css/tiny-slider.scss";
+@import "statics/css/tippy.scss";
+@import "statics/css/tabulator.scss";
+@import "statics/css/tail-select.scss";
+@import "statics/css/toastify.scss";
+@import "statics/css/dropzone.scss";
+@import "statics/css/ckeditor.scss";
+@import "statics/css/zoom-vanilla.scss";
+@import "statics/css/dark-mode-switcher.scss"; 

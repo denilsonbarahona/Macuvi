@@ -1,0 +1,1 @@
+export const getCompany =state=> state.company

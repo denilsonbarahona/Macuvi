@@ -1,0 +1,1 @@
+export const getTaxes = state => state.taxes

@@ -1,0 +1,81 @@
+{
+  "name": "macuvi2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-balloon": "^26.0.0",
+    "@ckeditor/ckeditor5-build-balloon-block": "^26.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^26.0.0",
+    "@ckeditor/ckeditor5-build-decoupled-document": "^26.0.0",
+    "@ckeditor/ckeditor5-build-inline": "^26.0.0",
+    "@craco/craco": "^6.1.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "cash": "^0.8.0",
+    "cash-dom": "^8.1.0",
+    "chart.js": "^2.9.4",
+    "ckeditor5-build-full-plugins": "^12.0.7",
+    "dayjs": "^1.10.4",
+    "dropzone": "^5.7.6",
+    "feather-icons": "^4.28.0",
+    "firebase": "^8.7.1",
+    "highlight.js": "^10.6.0",
+    "js-beautify": "^1.13.5",
+    "litepicker": "^2.0.11",
+    "node-sass": "^5.0.0",
+    "pristinejs": "^0.1.9",
+    "react": "^17.0.1",
+    "react-colorful": "^5.2.0",
+    "react-dom": "^17.0.1",
+    "react-image-file-resizer": "^0.4.4",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.3.1",
+    "react-scripts": "^4.0.2",
+    "react-select": "^4.3.0",
+    "redux": "^4.0.5",
+    "tabulator-tables": "^4.9.3",
+    "tail.select": "^0.5.15",
+    "tiny-slider": "^2.9.3",
+    "tippy.js": "^6.3.1",
+    "toastify-js": "^1.9.3",
+    "velocity-animate": "^1.5.2",
+    "web-vitals": "^1.0.1",
+    "xlsx": "^0.16.9",
+    "zoom-vanilla.js": "^2.0.6"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/index.css",
+    "build:js": "src/statics/js/app.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
+  }
+}

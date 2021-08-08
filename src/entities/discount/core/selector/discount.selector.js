@@ -1,0 +1,1 @@
+export const getDiscount = state => state.discount

@@ -1,0 +1,1 @@
+export const getPromotion = state => state.promotion
